@@ -29,13 +29,15 @@ html(lang='en')
             a.navbar-brand.js-scroll-trigger(href='#page-top')
                 span.d-block.d-lg-none Clarence Taylor
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='')
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='')
             button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarSupportedContent.collapse.navbar-collapse
                 ul.navbar-nav
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') About
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
@@ -69,6 +71,86 @@ html(lang='en')
                         a.social-icon(href='https://gitlab.ecs.vuw.ac.nz/scottzach1')
                             i.fab.fa-gitlab
 
+            hr.m-0
+
+            // Projects
+            section#projects.resume-section
+               .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Linux Dotfiles
+                            a(target='blank' href='https://github.com/scottzach1/dotfiles') github.com/scottzach1/dotfiles
+                            br
+                            br
+                            p
+                                | Configuration files for the different software I run on my personal Linux devices
+                        .flex-shrink-0
+                            span.text-primary April 2020 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Regression Testing Suite
+                            a(target='blank' href='https://www.edmi-meters.com/product/software/storm/') edmi-meters.com/product/software/storm
+                            br
+                            br
+                            p
+                                | Developing an automated regression test for a web application dealing with
+                                | smart meters using Python, Selenium and Robot with TeamCity integration.
+                        .flex-shrink-0
+                            span.text-primary November 2019 - January 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Mechanical Keyboards
+                            a(target='blank' href='https://github.com/scottzach1/Planck/') github.com/scottzach1/Planck
+                            br
+                            br
+                            p
+                                | One hobby of mine has been to develop the perfect keyboard layout to suite
+                                | my needs using QMK Firmware.
+                        .flex-shrink-0
+                            span.text-primary December 2019 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Chap's Challenge
+                            a(target='blank' href='https://github.com/scottzach1/Chaps-Challenge') github.com/scottzach1/Chaps-Challenge
+                            br
+                            br
+                            p
+                            | A SWEN225 group project developing a modern take on the iconic
+                            | Chip’s Challenge using Java Swing.
+                        .flex-shrink-0
+                            span.text-primary September 2019 - October 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Movie Database
+                            a(target='blank' href='https://github.com/scottzach1/Movie-Database') github.com/scottzach1/Movie-Database
+                            br
+                            br
+                            p
+                            | A movie database server written in C++ for NWEN241 where a user can request movie
+                            | information via another shell instance using a TCP connection.
+                        .flex-shrink-0
+                            span.text-primary September 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Soles for Syria
+                            a(target='blank' href='https://docs.google.com/document/d/1bFXqmABdFGYWnSHquNrv7jOvLFEIWWqiywkdiUCoXTM/edit') Google Drive link
+                            br
+                            br
+                            p
+                            | A Bootstrap CSS website written for NGO organisation Soles for Syria.
+                        .flex-shrink-0
+                            span.text-primary September 2019
+
+                    p
+                    | Many more projects can be seen at
+                    a(target='blank' href='https://github.com/scottzach1/') github.com/scottzach1/
             hr.m-0
 
             // Experience
