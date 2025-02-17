@@ -59,17 +59,20 @@ html(lang='en')
                         | Zac
                         span.text-primary Scott
                     .subheading.mb-5
-                        | Software Engineer · Software Engineer · InPhySec Security ·
+                        | Software Engineer · Software Engineer · Bastion Security Group ·
                         a(href='mailto:contact@zaci.dev') contact@zaci.dev
                     p.lead.mb-5
-                        | Drawing on my modern software engineering knowledge and past experience as a SOC analyst, I am
-                        | dedicated to automating security outcomes, building new capabilities, and maximising
-                        | efficiency.
+                        | Drawing on my expertise in security automation and modern software engineering practices, I
+                        | specialize in developing innovative solutions that enhance security operations and streamline
+                        | processes across diverse technical environments. I work extensively with Python, cloud
+                        | platforms, and containerization to build robust, scalable systems that deliver real business
+                        | value.
                         | <br><br>
-                        | I am an engaged, creative and quirky Software Engineer with 3 years industry
-                        | experience in Software Development and Cyber Security. I have a strong passion for
-                        | problem‑solving, Linux, mechanical keyboards, and automating things! Outside of the office I
-                        | am an avid squash player and strive to go hiking in the ranges.
+                        | I am an engaged, creative, and solutions-focused Software Engineer with deep experience in
+                        | both Software Development and Cyber Security. I have a strong passion for problem-solving,
+                        | infrastructure automation, Linux systems, and building reliable, type-safe code. When I'm not
+                        | crafting automation solutions or tinkering with mechanical keyboards, you'll find me on the
+                        | squash court or hiking in the ranges.
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/scottza/')
                             i.fab.fa-linkedin-in
@@ -77,7 +80,8 @@ html(lang='en')
                             i.fab.fa-github
                         a.social-icon(href='mailto:contact@zaci.dev')
                             i.far.fa-envelope
-
+                        a.social-icon(href="https://gitlab.com/zacscottbsg")
+                            i.fab.fa-gitlab
             hr.m-0
 
             // Experience
@@ -86,20 +90,55 @@ html(lang='en')
                     h2.mb-5 Experience
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Security Engineer
+                            h3.mb-0 Software Engineer
+                            .subheading.mb-3 Bastion Security Group - Full-Time
+                            p
+                                | In my role, I leverage my expertise in security automation and software engineering to
+                                | drive innovation across multiple workstreams. I develop comprehensive internal
+                                | automation solutions, collaborating with teams across the company—including SOC,
+                                | Service Delivery, Pentest/GRC Consulting, Finance, and Security Engineering—to
+                                | streamline processes and make everyone's lives easier.
+                                | <br><br>
+                                | One significant component of my work involves helping maintain and improve our Cassini
+                                | CTI SaaS platform. My contributions here lie around rewriting integral components and
+                                | making changes to the core infrastructure and CI/CD pipelines to streamline safe and
+                                | reliable deployments. Additionally, I collaborate with customers to help build and
+                                | maintain their bespoke software solutions, ensuring robust security controls whilst
+                                | meeting their specific business requirements.
+                                |
+                                | My work spans diverse environments including AWS, Azure, and on-premises deployments.
+                                | I utilize modern development practices with Python, incorporating modern tools like
+                                | UV, Pydantic, Ruff, and SqlAlchemy allowing for reliable, type-safe code development
+                                | with high velocity. I also work extensively with Docker and Linux to enable robust,
+                                | deterministic, and scalable deployments.
+                        .flex-shrink-0
+                            span.text-primary April 2024 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Software Engineering Manager
                             .subheading.mb-3 InPhySec Security - Full-Time
                             p
-                                | In this position I have led the development focus for automation at InPhySec Security.
-                                | I have applied my previous experience as a SOC analyst with my passion and knowledge
-                                | as a software engineer to begin writing software and automation to aid the SOC in
-                                | their activity.
+                                | During my tenure at InPhySec Security, I passionately advocated and championed the
+                                | initiative to develop software solutions aimed at automating and enhancing business
+                                | outcomes. Drawing upon my prior experience as a SOC analyst and my software
+                                | engineering expertise, I dedicated my focus to creating software and automation tools
+                                | that bolster the SOC team's capabilities.
                                 | <br><br>
-                                | Throughout my time in this position I have written a variety of automation, spanning
-                                | from assisting detection triage, ingesting threat feeds, automating customer assurance
-                                | reporting for our MSS technologies, integrating with our internal SIEM and SOAR, and
-                                | writing ad hoc scripts to help with incident response gigs.
+                                | Throughout my time in this position I wrote a variety of automation, spanning from
+                                | assisting detection triage, ingesting threat feeds, automating customer assurance
+                                | reporting for our MSS technologies, integrating with our internal SIEM and SOAR,
+                                | building a robust case management system, and writing ad hoc scripts to help with
+                                | incident response gigs.
                         .flex-shrink-0
-                            span.text-primary May 2022 - Present
+                            span.text-primary September 2023 - April 2024
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Security Engineer
+                            .subheading.mb-3 InPhySec Security - Full-Time
+                        .flex-shrink-0
+                            span.text-primary May 2022 - September 2023
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -163,7 +202,7 @@ html(lang='en')
                                 a(href='https://www.wgtn.ac.nz/courses/comp/103/2019') COMP103
                                 | , XMUT103 (Marking Only)
                         .flex-shrink-0
-                            span.text-primary February 2020 - October 2020
+                            span.text-primary February 2019 - October 2019
 
             hr.m-0
 
@@ -171,6 +210,17 @@ html(lang='en')
             section#projects.resume-section
                .resume-section-content
                     h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Python-Injection-Framework (pif)
+                            a(target='blank' href='https://github.com/scottzach1/Python-Injection-Framework/') github.com/scottzach1/Python-Injection-Framework
+                            br
+                            br
+                            p
+                                | A simple Python dependency injection framework.
+                        .flex-shrink-0
+                            span.text-primary June 2024 - Present
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -299,7 +349,7 @@ html(lang='en')
                         tr
                             td Python
                             td Industry
-                            td InPhySec, Xero, Edmi Ltd.
+                            td Bastion, InPhySec, Xero, Edmi Ltd.
                         tr
                             td TypeScript/JavaScript
                             td Industry, University
@@ -342,7 +392,7 @@ html(lang='en')
                         | programs and fiddling with my dotfiles. I also am a mechanical keyboard enthusiast, with a
                         | newfound love for small form factor and ortho-linear keyboards (
                         a(target='blank' href='https://github.com/scottzach1/Planck/') github.com/scottzach1/Planck
-                        |).
+                        | ).
                     p.mb-0
                         | I also am a big fan of the outdoors, when given the opportunity. I love to go hiking in the
                         | Tararua's and Ruahine's, as well as mountain biking at Makara and Polhill reserve.
@@ -355,6 +405,12 @@ html(lang='en')
                     h2.mb-5 Awards & Certifications
 
                     ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Amazon Web Services (AWS)
+                            p AWS Certified Cloud Practitioner 2023
+                                a(href='https://www.credly.com/badges/76bee17c-29f9-49b4-b44c-d8071362bbb6/linked_in_profile') (certificate)
                         li
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
